@@ -80,7 +80,7 @@ a {
   border-bottom: 0.05263157895em dotted;
 }
 .preview a {
-  color: #FFCE0B;
+  color: #2F4062;
 }
 p {
   padding-bottom: 1.2631578947em;
@@ -124,7 +124,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #2F4062;
+  background-color: #f2f2f2;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
 }
@@ -192,7 +192,7 @@ nav {
 }
 .navbar {
   overflow: hidden;
-  background-color: #2F4062;
+  background-color: #f2f2f2;
   position: fixed;
   top: 0;
   width: 100%;
@@ -210,7 +210,7 @@ nav {
 }
 
 .navbar a:hover {
-  background: #2F4062;
+  background: #f2f2f2;
   color: #2F4062;
 }
 
@@ -267,7 +267,7 @@ nav {
   margin-bottom: 1.2631578947em;
 }
 .assigned {
-  background-color: rgba(180,168,119,.75);
+  background-color: #f2f2f2;
   color: #2F4062;
   padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
   margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
@@ -305,11 +305,11 @@ table {
   margin-bottom: 1em;
 }
 table, th, td {
-	border: 1px solid #59453C;
+	border: 1px solid #2F4062;
 	padding: 0px 10px;
 }
 .tablehead {
-	background-color: #93A341;
+	background-color: #f2f2f2;
 	text-align: center;
   font-weight: 700;
 }
