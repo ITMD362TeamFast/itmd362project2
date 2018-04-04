@@ -1,6 +1,3 @@
-
-
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -144,10 +141,7 @@ h4 {
 
 /* ========== Layout ========== */
 
-html {
-  /* Border for the nav to sit on */
-  border-top: 2.6875em solid #93A341; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
-}
+
 nav {
   position: absolute;
   width: 100%;
@@ -191,6 +185,7 @@ small,
 /* Navigation */
 nav {
   font-weight: 200;
+  
   
 }
 .navbar {
@@ -495,3 +490,5 @@ td {
     display: flex; /* My life for element/container queries...*/
   }
 }
+
+
