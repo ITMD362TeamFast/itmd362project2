@@ -1,5 +1,6 @@
 
 
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -56,6 +57,7 @@ html {
   padding-top: 0;
   background-color: #f2f2f2;
   color: #2F4062;
+  float:left; 
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -124,9 +126,10 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #f2f2f2;
+  background-color: #2F4062;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
+  color: white;
 }
 
 h4 {
@@ -192,7 +195,7 @@ nav {
 }
 .navbar {
   overflow: hidden;
-  background-color: #f2f2f2;
+  background-color: #2F4062 ;
   position: fixed;
   top: 0;
   width: 100%;
@@ -202,7 +205,7 @@ nav {
 .navbar a {
   float: left;
   display: block;
-  color: #2F4062;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -210,8 +213,8 @@ nav {
 }
 
 .navbar a:hover {
-  background: #f2f2f2;
-  color: #2F4062;
+  background: grey;
+  color: black;
 }
 
 /* Calendar */
