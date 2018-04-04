@@ -2,7 +2,7 @@ body{
 	padding-top:50px;
 	
 }
-#table {
+#table , h1, h3{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -28,8 +28,15 @@ p {
 color: red;
 }
 h1 {
-text-align: center;
-color: black;
+	margin-bottom: 0px;
+	color: black;
+}
+#ClassHeader{
+	margin-top:20px;
+	margin-bottom:0px;
+}
+h3{
+	margin-top: 5px;
 }
 /*Navigation */
 nav {
@@ -38,7 +45,7 @@ nav {
 }
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #2F4062;
   position: fixed;
   top: 0;
   width: 100%;
