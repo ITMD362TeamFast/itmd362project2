@@ -2,22 +2,24 @@ body{
 	padding-top:50px;
 	
 }
-#table , h1, h3{
+#table1, #table2 , h1, h3{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-#table td, #customers th {
+#table1 td, #table2 td, #customers th {
     border: 2px solid #ddd;
     padding: 8px;
 }
 
-#table tr:nth-child(even){background-color: #f2f2f2;}
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+#table2 tr:nth-child(even){background-color: #f2f2f2;}
 
-#table tr:hover {background-color: #ddd;}
+#table1 tr:hover {background-color: #ddd;}
+#table2 tr:hover {background-color: #ddd;}
 
-#table th {
+#table1 th, #table2 th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
