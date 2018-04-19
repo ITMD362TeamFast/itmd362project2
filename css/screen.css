@@ -54,7 +54,7 @@ html {
   padding-top: 0;
   background-color: #f2f2f2;
   color: #2F4062;
-  float:left; 
+  float:left;
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -149,10 +149,6 @@ nav {
   left: 0;
 }
 
-#instructor {
-  margin-top: 2.5263157895em;
-}
-
 /* ========== Modules ========== */
 
 /* Header & Footer */
@@ -185,16 +181,20 @@ small,
 /* Navigation */
 nav {
   font-weight: 200;
-  
-  
+
+.nav
+{
+  margin-left: 0;
+  padding-bottom: 0;
 }
+
 .navbar {
   overflow: hidden;
   background-color: #2F4062 ;
   position: fixed;
   top: 0;
   width: 100%;
- 
+
 }
 
 .navbar a {
@@ -490,5 +490,3 @@ td {
     display: flex; /* My life for element/container queries...*/
   }
 }
-
-
