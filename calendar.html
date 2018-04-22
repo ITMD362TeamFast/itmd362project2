@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Course Calendar</title>
+	<meta charset="utf-8">
+	<title>ITMD 362: Human-Computer Interaction and Web Design (Spring 2018)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 	<link rel="stylesheet" media="screen" href="css/stylesheetreset.css" />
-	<link rel="stylesheet" media="screen" href="OLDcss/project2.css" />
+	<link rel="stylesheet" href="css/screen.css" media="screen" />
+	<link rel="icon" type="image/x-icon" href="http://web.iit.edu/sites/web/themes/iit_web/favicon.ico">title>Course Calendar</title>
+	<link rel="stylesheet" media="screen" href="css/stylesheetreset.css" />
+	<link rel="stylesheet" media="screen" href="css/screen.css"  />
 </head>
 <body>
-<header>
+<header id="header">
 <div class="navbar">
 		<a href="index.html">Introduction</a>
         <a href="calendar.html">Calendar</a>
@@ -19,6 +24,56 @@
 	<h3 id="ClassHeader">Human-Computer Interaction and Web&nbsp;Design</h3>
 	<h3>Class Schedule</h3>
 <table id="table1">
+
+<button class="accordion">Week 1 - 01/09</button>
+<div class="panel">
+
+	<h3>Topic</h3>
+    <ul>
+		<li>Class Intro</li>
+		<li>HTML review</li>
+	</ul>
+	<h3>Readings</h3>
+	<ol>
+		<li>Wroblewski, Mobile First,Introduction & Part 1 (Ch. 1-3)</li>
+		<li>Reread Mozilla Developer Network Links</li>
+	</ol>
+</div>
+
+<button class="accordion">Week 2 - 01/16 </button>
+<div class="panel">
+	<h3>No Class</h3>
+</div>
+
+<button class="accordion">Week 3 - 01/23</button>
+<div class="panel">
+<h3>Topic</h3>
+    <ul>
+		<li>CSS Review</li>
+		<li>Responsive Units</li>
+	</ul>
+	<h3>Readings</h3>
+	<ol>
+		<li>Jehl, Responsible Responsive Design, Introduction, Chapters 1 & 2</li>
+	</ol>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+<!--
   <tr>
     <th>Reading</th>
     <th>Topic</th>
@@ -43,8 +98,7 @@ Introduction & Part 1 (Ch. 1-3)</li>
   </tr>
   <tr>
    <td><ol>
-  <li>Jehl, Responsible Responsive Design,
-Introduction, Chapters 1 & 2</li>
+  
   </ol></td>
     <td><ul>
   <li>CSS Review</li>
@@ -197,7 +251,7 @@ Chapters 8-9 & 12-13</li>
   </tr>
 </table>
 <p> Work which fails HTML or CSS validation will receive a 50% point reduction!</p>
-<h1>Homework Schedule:</h1>
+<h1>Homework Schedule:</h1> -->
 <table id="table2">
 <tr>
     <th>Date</th>
