@@ -27,6 +27,10 @@
 		margin-bottom:10px;
 		padding-left: 12px;
 	}
+	h3{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
 	nav {
 		font-weight: 200;
 	}
@@ -91,6 +95,10 @@
     display: none;
     background-color: white;
     overflow: hidden;
+}
+#ClassID{
+	
+	margin:10px;
 }
 /* Project Tabs */
 	#ClassHeader{
