@@ -320,10 +320,10 @@ li{
 		margin-bottom:10px;
 		padding-left: 12px;
 	}
-	#ProjectSubTitle{
+	.ProjectSubTitle{
 		font-size:20px;
 	}
-	#description{
+	.description{
 		margin:10px;
 	}
 	
